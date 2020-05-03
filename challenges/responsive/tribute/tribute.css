@@ -1,3 +1,4 @@
+/* BODY */
 body {
     background: #c3c1a3;
 }
@@ -7,6 +8,8 @@ body {
     margin: 0 auto;
     background-color: #fff;
 }
+
+/* HEADER */
 
 .header-wrapper {
     display: flex;
@@ -25,9 +28,36 @@ body {
     display: block;
     margin: 1% auto;
     border: 2px solid black;
+    max-width: 900px;
 }
 
 .img-div figcaption {
     text-align: center;
     margin-bottom: 2%;
 }
+
+/* CONTENT */
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 480px) {
+    
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        width: 100%;
+    }
+
+    .img-div img {
+        width: 250px;
+        margin-top: 5%;
+    }
+
+    h2 {
+        text-align: center;
+    }
+  }
