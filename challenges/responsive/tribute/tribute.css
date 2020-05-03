@@ -47,6 +47,24 @@ body {
     padding-bottom: 3%;
 }
 
+/* FOOTER */
+
+.footer {
+    text-align: center;
+}
+
+.footer a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: consolas;
+}
+
+.footer .acostheta {
+    font-family: georgia;
+
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 480px) {
