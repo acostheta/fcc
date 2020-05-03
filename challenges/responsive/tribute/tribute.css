@@ -26,3 +26,8 @@ body {
     margin: 1% auto;
     border: 2px solid black;
 }
+
+.img-div figcaption {
+    text-align: center;
+    margin-bottom: 2%;
+}
