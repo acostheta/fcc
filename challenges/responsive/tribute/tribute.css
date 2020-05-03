@@ -1,0 +1,28 @@
+body {
+    background: #c3c1a3;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-div {
+    background: #c3c1a3;
+    width: 100%;
+}
+
+.img-div img {
+    width: 25%;
+    display: block;
+    margin: 1% auto;
+    border: 2px solid black;
+}
